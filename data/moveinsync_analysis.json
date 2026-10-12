@@ -1,0 +1,1219 @@
+{
+  "app_summary": {
+    "title": "MoveInSync",
+    "all_time_score": 4.64,
+    "total_ratings": 114880,
+    "total_reviews": 23624,
+    "histogram": [
+      7316,
+      839,
+      1224,
+      7253,
+      98242
+    ],
+    "analyzed_sample_size": 3368,
+    "analyzed_negative_count": 1500,
+    "recent_avg_score": 2.95,
+    "date_range": "2020-02-17 to 2026-10-11"
+  },
+  "monthly_trend": [
+    {
+      "month": "2020-02",
+      "total_reviews": 4,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2020-03",
+      "total_reviews": 8,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2020-06",
+      "total_reviews": 3,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2020-07",
+      "total_reviews": 3,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2020-08",
+      "total_reviews": 1,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2020-09",
+      "total_reviews": 3,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2020-11",
+      "total_reviews": 2,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2020-12",
+      "total_reviews": 1,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2021-01",
+      "total_reviews": 4,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2021-02",
+      "total_reviews": 4,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2021-03",
+      "total_reviews": 3,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2021-04",
+      "total_reviews": 1,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2021-07",
+      "total_reviews": 2,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2021-09",
+      "total_reviews": 2,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2021-10",
+      "total_reviews": 1,
+      "avg_score": 3.0,
+      "negative_count": 0,
+      "positive_count": 0
+    },
+    {
+      "month": "2021-11",
+      "total_reviews": 10,
+      "avg_score": 2.8,
+      "negative_count": 2,
+      "positive_count": 0
+    },
+    {
+      "month": "2021-12",
+      "total_reviews": 7,
+      "avg_score": 2.5714285714285716,
+      "negative_count": 3,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-01",
+      "total_reviews": 4,
+      "avg_score": 2.75,
+      "negative_count": 1,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-02",
+      "total_reviews": 6,
+      "avg_score": 2.5,
+      "negative_count": 3,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-03",
+      "total_reviews": 10,
+      "avg_score": 2.5,
+      "negative_count": 5,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-04",
+      "total_reviews": 44,
+      "avg_score": 2.3863636363636362,
+      "negative_count": 27,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-05",
+      "total_reviews": 30,
+      "avg_score": 2.5,
+      "negative_count": 15,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-06",
+      "total_reviews": 11,
+      "avg_score": 2.4545454545454546,
+      "negative_count": 6,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-07",
+      "total_reviews": 23,
+      "avg_score": 2.5217391304347827,
+      "negative_count": 11,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-08",
+      "total_reviews": 16,
+      "avg_score": 2.625,
+      "negative_count": 6,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-09",
+      "total_reviews": 15,
+      "avg_score": 2.466666666666667,
+      "negative_count": 8,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-10",
+      "total_reviews": 19,
+      "avg_score": 2.6315789473684212,
+      "negative_count": 7,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-11",
+      "total_reviews": 11,
+      "avg_score": 2.6363636363636362,
+      "negative_count": 4,
+      "positive_count": 0
+    },
+    {
+      "month": "2022-12",
+      "total_reviews": 14,
+      "avg_score": 2.5714285714285716,
+      "negative_count": 6,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-01",
+      "total_reviews": 11,
+      "avg_score": 2.6363636363636362,
+      "negative_count": 4,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-02",
+      "total_reviews": 13,
+      "avg_score": 2.5384615384615383,
+      "negative_count": 6,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-03",
+      "total_reviews": 16,
+      "avg_score": 2.5625,
+      "negative_count": 7,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-04",
+      "total_reviews": 9,
+      "avg_score": 2.3333333333333335,
+      "negative_count": 6,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-05",
+      "total_reviews": 16,
+      "avg_score": 2.4375,
+      "negative_count": 9,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-06",
+      "total_reviews": 16,
+      "avg_score": 2.5,
+      "negative_count": 8,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-07",
+      "total_reviews": 25,
+      "avg_score": 2.36,
+      "negative_count": 16,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-08",
+      "total_reviews": 29,
+      "avg_score": 2.5517241379310347,
+      "negative_count": 13,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-09",
+      "total_reviews": 20,
+      "avg_score": 2.4,
+      "negative_count": 12,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-10",
+      "total_reviews": 30,
+      "avg_score": 2.433333333333333,
+      "negative_count": 17,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-11",
+      "total_reviews": 25,
+      "avg_score": 2.36,
+      "negative_count": 16,
+      "positive_count": 0
+    },
+    {
+      "month": "2023-12",
+      "total_reviews": 21,
+      "avg_score": 2.3333333333333335,
+      "negative_count": 14,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-01",
+      "total_reviews": 20,
+      "avg_score": 2.5,
+      "negative_count": 10,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-02",
+      "total_reviews": 16,
+      "avg_score": 2.375,
+      "negative_count": 10,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-03",
+      "total_reviews": 18,
+      "avg_score": 2.388888888888889,
+      "negative_count": 11,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-04",
+      "total_reviews": 12,
+      "avg_score": 2.6666666666666665,
+      "negative_count": 4,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-05",
+      "total_reviews": 16,
+      "avg_score": 2.6875,
+      "negative_count": 5,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-06",
+      "total_reviews": 16,
+      "avg_score": 2.625,
+      "negative_count": 6,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-07",
+      "total_reviews": 24,
+      "avg_score": 2.375,
+      "negative_count": 15,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-08",
+      "total_reviews": 12,
+      "avg_score": 2.5833333333333335,
+      "negative_count": 5,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-09",
+      "total_reviews": 13,
+      "avg_score": 2.3076923076923075,
+      "negative_count": 9,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-10",
+      "total_reviews": 17,
+      "avg_score": 2.5294117647058822,
+      "negative_count": 8,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-11",
+      "total_reviews": 12,
+      "avg_score": 2.5,
+      "negative_count": 6,
+      "positive_count": 0
+    },
+    {
+      "month": "2024-12",
+      "total_reviews": 18,
+      "avg_score": 3.2222222222222223,
+      "negative_count": 5,
+      "positive_count": 9
+    },
+    {
+      "month": "2025-01",
+      "total_reviews": 42,
+      "avg_score": 3.1904761904761907,
+      "negative_count": 13,
+      "positive_count": 21
+    },
+    {
+      "month": "2025-02",
+      "total_reviews": 35,
+      "avg_score": 3.1714285714285713,
+      "negative_count": 12,
+      "positive_count": 18
+    },
+    {
+      "month": "2025-03",
+      "total_reviews": 36,
+      "avg_score": 3.5555555555555554,
+      "negative_count": 4,
+      "positive_count": 24
+    },
+    {
+      "month": "2025-04",
+      "total_reviews": 33,
+      "avg_score": 3.4242424242424243,
+      "negative_count": 7,
+      "positive_count": 21
+    },
+    {
+      "month": "2025-05",
+      "total_reviews": 52,
+      "avg_score": 2.673076923076923,
+      "negative_count": 26,
+      "positive_count": 20
+    },
+    {
+      "month": "2025-06",
+      "total_reviews": 134,
+      "avg_score": 1.7686567164179106,
+      "negative_count": 100,
+      "positive_count": 23
+    },
+    {
+      "month": "2025-07",
+      "total_reviews": 128,
+      "avg_score": 2.203125,
+      "negative_count": 76,
+      "positive_count": 40
+    },
+    {
+      "month": "2025-08",
+      "total_reviews": 101,
+      "avg_score": 1.8415841584158417,
+      "negative_count": 73,
+      "positive_count": 21
+    },
+    {
+      "month": "2025-09",
+      "total_reviews": 97,
+      "avg_score": 1.865979381443299,
+      "negative_count": 68,
+      "positive_count": 19
+    },
+    {
+      "month": "2025-10",
+      "total_reviews": 115,
+      "avg_score": 1.8782608695652174,
+      "negative_count": 80,
+      "positive_count": 24
+    },
+    {
+      "month": "2025-11",
+      "total_reviews": 68,
+      "avg_score": 1.911764705882353,
+      "negative_count": 48,
+      "positive_count": 16
+    },
+    {
+      "month": "2025-12",
+      "total_reviews": 73,
+      "avg_score": 1.8767123287671232,
+      "negative_count": 54,
+      "positive_count": 15
+    },
+    {
+      "month": "2026-01",
+      "total_reviews": 83,
+      "avg_score": 1.8674698795180722,
+      "negative_count": 60,
+      "positive_count": 15
+    },
+    {
+      "month": "2026-02",
+      "total_reviews": 79,
+      "avg_score": 1.6962025316455696,
+      "negative_count": 62,
+      "positive_count": 16
+    },
+    {
+      "month": "2026-03",
+      "total_reviews": 62,
+      "avg_score": 1.7580645161290323,
+      "negative_count": 46,
+      "positive_count": 10
+    },
+    {
+      "month": "2026-04",
+      "total_reviews": 169,
+      "avg_score": 3.331360946745562,
+      "negative_count": 64,
+      "positive_count": 102
+    },
+    {
+      "month": "2026-05",
+      "total_reviews": 247,
+      "avg_score": 4.016194331983805,
+      "negative_count": 53,
+      "positive_count": 185
+    },
+    {
+      "month": "2026-06",
+      "total_reviews": 273,
+      "avg_score": 3.5604395604395602,
+      "negative_count": 92,
+      "positive_count": 171
+    },
+    {
+      "month": "2026-07",
+      "total_reviews": 285,
+      "avg_score": 4.014035087719298,
+      "negative_count": 66,
+      "positive_count": 213
+    },
+    {
+      "month": "2026-08",
+      "total_reviews": 242,
+      "avg_score": 3.652892561983471,
+      "negative_count": 77,
+      "positive_count": 156
+    },
+    {
+      "month": "2026-09",
+      "total_reviews": 245,
+      "avg_score": 3.8448979591836734,
+      "negative_count": 68,
+      "positive_count": 173
+    },
+    {
+      "month": "2026-10",
+      "total_reviews": 82,
+      "avg_score": 3.7439024390243905,
+      "negative_count": 25,
+      "positive_count": 56
+    }
+  ],
+  "version_summary": [
+    {
+      "reviewCreatedVersion": "12.14.1",
+      "count": 142,
+      "avg_score": 3.816901408450704,
+      "one_star_pct": 24.647887323943664
+    },
+    {
+      "reviewCreatedVersion": "12.17.0",
+      "count": 141,
+      "avg_score": 3.7588652482269502,
+      "one_star_pct": 26.95035460992908
+    },
+    {
+      "reviewCreatedVersion": "12.1.2",
+      "count": 117,
+      "avg_score": 1.8547008547008548,
+      "one_star_pct": 63.24786324786324
+    },
+    {
+      "reviewCreatedVersion": "12.11.2",
+      "count": 114,
+      "avg_score": 3.710526315789474,
+      "one_star_pct": 28.07017543859649
+    },
+    {
+      "reviewCreatedVersion": "12.6",
+      "count": 114,
+      "avg_score": 2.026315789473684,
+      "one_star_pct": 57.01754385964912
+    },
+    {
+      "reviewCreatedVersion": "12.12.3",
+      "count": 112,
+      "avg_score": 4.017857142857143,
+      "one_star_pct": 20.535714285714285
+    },
+    {
+      "reviewCreatedVersion": "12.19.0",
+      "count": 105,
+      "avg_score": 3.619047619047619,
+      "one_star_pct": 31.428571428571427
+    },
+    {
+      "reviewCreatedVersion": "12.13.1",
+      "count": 95,
+      "avg_score": 3.6842105263157894,
+      "one_star_pct": 30.526315789473685
+    },
+    {
+      "reviewCreatedVersion": "12.18.1",
+      "count": 94,
+      "avg_score": 3.904255319148936,
+      "one_star_pct": 24.46808510638298
+    },
+    {
+      "reviewCreatedVersion": "12.16.0",
+      "count": 89,
+      "avg_score": 3.865168539325843,
+      "one_star_pct": 20.224719101123593
+    },
+    {
+      "reviewCreatedVersion": "12.15.0",
+      "count": 83,
+      "avg_score": 4.036144578313253,
+      "one_star_pct": 19.27710843373494
+    },
+    {
+      "reviewCreatedVersion": "12.12.2",
+      "count": 76,
+      "avg_score": 4.184210526315789,
+      "one_star_pct": 15.789473684210526
+    },
+    {
+      "reviewCreatedVersion": "11.5.17",
+      "count": 72,
+      "avg_score": 3.25,
+      "one_star_pct": 0.0
+    },
+    {
+      "reviewCreatedVersion": "12.12.0",
+      "count": 70,
+      "avg_score": 3.9571428571428573,
+      "one_star_pct": 22.857142857142858
+    },
+    {
+      "reviewCreatedVersion": "12.1",
+      "count": 65,
+      "avg_score": 1.9846153846153847,
+      "one_star_pct": 58.46153846153847
+    }
+  ],
+  "stage_summary": [
+    {
+      "stage": "General Dissatisfaction",
+      "count": 720,
+      "percentage": 48.0
+    },
+    {
+      "stage": "Live Tracking & Real-Time ETA",
+      "count": 169,
+      "percentage": 11.266666666666666
+    },
+    {
+      "stage": "App Stability & System Performance",
+      "count": 136,
+      "percentage": 9.066666666666666
+    },
+    {
+      "stage": "Onboarding & Roster Sync",
+      "count": 122,
+      "percentage": 8.133333333333333
+    },
+    {
+      "stage": "Self-Booking & Cutoff Policy",
+      "count": 114,
+      "percentage": 7.6
+    },
+    {
+      "stage": "Boarding, Safety & Rating Gate",
+      "count": 79,
+      "percentage": 5.266666666666667
+    },
+    {
+      "stage": "Driver Conduct & Fleet Quality",
+      "count": 72,
+      "percentage": 4.8
+    },
+    {
+      "stage": "Routing Algorithm & Detours",
+      "count": 51,
+      "percentage": 3.4000000000000004
+    },
+    {
+      "stage": "Support, Helpdesk & Escalation",
+      "count": 37,
+      "percentage": 2.466666666666667
+    }
+  ],
+  "category_summary": [
+    {
+      "category": "General Service & Logistics",
+      "count": 905,
+      "percentage": 60.333333333333336
+    },
+    {
+      "category": "Algorithms / Telemetry & Routing",
+      "count": 232,
+      "percentage": 15.466666666666667
+    },
+    {
+      "category": "Engineering / Core App Stability",
+      "count": 134,
+      "percentage": 8.933333333333334
+    },
+    {
+      "category": "Product & UX Design",
+      "count": 115,
+      "percentage": 7.666666666666666
+    },
+    {
+      "category": "Operations & Fleet Governance",
+      "count": 114,
+      "percentage": 7.6
+    }
+  ],
+  "dev_response_rate": {
+    "overall_reply_pct": 15.88479809976247,
+    "neg_reply_pct": 18.4,
+    "avg_reply_delay_days": 0
+  },
+  "top_negative_reviews": [
+    {
+      "reviewId": "f10f0786-3322-4758-87ce-8378fbfb041f",
+      "score": 1,
+      "thumbsUpCount": 27,
+      "reviewCreatedVersion": "12.4",
+      "date": "2025-09-10",
+      "content": "The app frequently crashes or hangs while booking cabs, which makes it really frustrating, especially when I\u2019m in a hurry. The GPS tracking is unreliable\u2014it often shows the driver in the wrong location, causing unnecessary delays. Notifications are delayed or sometimes don\u2019t come at all, so I end up missing important updates about my ride.",
+      "primary_stage": "Self-Booking & Cutoff Policy",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "f7dff83f-c975-4355-97e7-686602e20bd3",
+      "score": 2,
+      "thumbsUpCount": 14,
+      "reviewCreatedVersion": "9.9.4",
+      "date": "2022-05-02",
+      "content": "App not able to verify my phone/email on my Oneplus 6 (Android 11) when connected to wifi network. When I submit my phone number or email address and click Verify, it throws an error \"Something went wrong. We are looking into it. Please try again after some time.\"",
+      "primary_stage": "Boarding, Safety & Rating Gate",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "333fc045-4a90-4951-92ea-06906fd7d135",
+      "score": 2,
+      "thumbsUpCount": 12,
+      "reviewCreatedVersion": "11.5.10",
+      "date": "2024-11-06",
+      "content": "There are a few suggestions which if done will make the app more user friendly: 1. If the cab arrangement is irrespective of number of bookings, and the same (approx ~20 seater) traveller comes everyday, then probably the feature of booking the cab atleast a week before can be eliminated. 2. Since the user is same everytime, the terms and conditions can be agreed and accepted at the first login. It is annoying when it pops up twice every single time the app is opened.",
+      "primary_stage": "Onboarding & Roster Sync",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "65beaeb0-116e-4e3f-beed-b24ba50834e4",
+      "score": 1,
+      "thumbsUpCount": 12,
+      "reviewCreatedVersion": "12.2",
+      "date": "2025-07-16",
+      "content": "Could not call the bus driver at critical time, as if I click on the call button, it says like The company policy is not allowed to call. Because of this functionality, I have missed the bus some time. Even when I see the bus has started moving from my stop and crossing me, but I'm on the way to the bus a few feet.. could improve on this calling feature.",
+      "primary_stage": "Driver Conduct & Fleet Quality",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "fdc328ac-2980-4425-85ba-86105f68fb3b",
+      "score": 1,
+      "thumbsUpCount": 10,
+      "reviewCreatedVersion": "12.6",
+      "date": "2025-11-07",
+      "content": "App has very poor logic of setting zoom level and automatically reset it every 30 seconds. When user is waiting for cab at source why you want to keep the destination also in the view? which makes impossible to see how far the cab is. suggestion to keep one point at a time in focus while boarding pickup point and vehicle and once you start the trip vehicle and destination. also when user zooms in respect his zooming don't reset automatically optionally you can give reset button to reset.",
+      "primary_stage": "Boarding, Safety & Rating Gate",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "c158c05c-7985-49cd-bebb-1be703e0ca50",
+      "score": 1,
+      "thumbsUpCount": 9,
+      "reviewCreatedVersion": "12.13.1",
+      "date": "2026-06-11",
+      "content": "The GPS tracking system is often unreliable and sometimes shows the driver at an incorrect location, which can lead to unnecessary delays. In addition, the estimated arrival time displayed by the GPS tracker is frequently inaccurate, and the pickup time is rarely synchronized correctly. This has occasionally resulted in missed cab pickups. Notifications are also often delayed or, at times, not received at all, causing me to miss important updates regarding my ride.",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "c2fa7fab-ea29-49f7-b5fe-fe3b296d8f10",
+      "score": 1,
+      "thumbsUpCount": 8,
+      "reviewCreatedVersion": "12.2.1",
+      "date": "2025-09-18",
+      "content": "Do you even read the comments ??? Or just Blabber !!!! On multiple occasions i have observed that the app while booking a parking slot will always show waiting for me but on the other hand my colleague will always have slots available. Not an isolated scenario other colleagues also have seen the same behaviour. Seems the app gives preference to some Not sure why the discrepancies. I have written to the mail team multiple times but got no reply. Hence added it here.",
+      "primary_stage": "Self-Booking & Cutoff Policy",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "ab295e36-efc9-4fce-9ed4-638f509c63ef",
+      "score": 1,
+      "thumbsUpCount": 8,
+      "reviewCreatedVersion": null,
+      "date": "2026-03-02",
+      "content": "The service is extremely disappointing and unreliable. Customer support is useless\u2014the representative who attended my call was rude, unprofessional, and did not attempt to resolve the issue. The app also shows incorrect timings for cab assignment and pickup, which change automatically and cause confusion. Nothing about the service feels trustworthy. It\u2019s hard to believe the high ratings are genuine, as the actual experience is far from acceptable.",
+      "primary_stage": "Driver Conduct & Fleet Quality",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "ba500b55-cbf2-4229-b4b2-1fea29d89afe",
+      "score": 1,
+      "thumbsUpCount": 7,
+      "reviewCreatedVersion": "12.4",
+      "date": "2025-09-03",
+      "content": "I have been using this app for years and was getting a feedback rate option till 2024 without any issues. I don't know what developers did, but from a few months I am not getting feedback notifications. My mobile and app notifications are on, to get the notification or option of rating, I have to clear cache and re-login. I hope the team can look into this.",
+      "primary_stage": "Onboarding & Roster Sync",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "1e2a1226-89f8-4ee7-ad3c-f9a63a6689b9",
+      "score": 2,
+      "thumbsUpCount": 7,
+      "reviewCreatedVersion": "11.5.17",
+      "date": "2025-01-05",
+      "content": "Using this out of compulsion. 0 innovation, hard to track cabs, does its own maps thing, doesn't have clever messaging options to contact drivers and the transport desk. You will still depend on emails, phone calls and SMS to work this thing. If the 1970's stick and carrot were a thing, this app would be the face of it.",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "5123b206-2147-4a6d-9b17-d2a90cd76830",
+      "score": 2,
+      "thumbsUpCount": 6,
+      "reviewCreatedVersion": "12.0",
+      "date": "2025-05-15",
+      "content": "app works fine. But... the app leaves a lot to be desired. yeah, it works fine but things like what to do when you're stuck...the error messages are confusing, you look around for settings and all but don't find information you need. You don't know if pressing anything will have an option to revert back....easily fixable and I think it will be.",
+      "primary_stage": "General Dissatisfaction",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "3e3d8c85-29ba-4636-bb62-ecaf17ffb6c9",
+      "score": 1,
+      "thumbsUpCount": 6,
+      "reviewCreatedVersion": "12.8.3",
+      "date": "2026-01-08",
+      "content": "This app is the worst. Not able to login via phone/email as the OTP is not received. The most disgusting thing is, it won't give any message whether the user's mobile/email is registered or not. Without this basic information, how can one know that their details are registered.",
+      "primary_stage": "Onboarding & Roster Sync",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "7e184ad5-066a-4d36-b7a0-73a0a56bf8a3",
+      "score": 1,
+      "thumbsUpCount": 6,
+      "reviewCreatedVersion": "12.14.1",
+      "date": "2026-06-29",
+      "content": "I had a suggestion to add a smart notification feature to remind the user for check-in after the vehicle crosses their pickup point. Sometimes, the vehicle arrives late or we miss by mistake to check-in, then we are marked as \"No show\" and it comes as a surprise. Introducing this one feature will help a lot for both transportation and end users. This may sound silly but even a small thing matters a lot.",
+      "primary_stage": "App Stability & System Performance",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "468f9773-f1e5-487e-8d87-2396f25d4776",
+      "score": 1,
+      "thumbsUpCount": 5,
+      "reviewCreatedVersion": "12.9.1",
+      "date": "2026-01-29",
+      "content": "Unable to view the schedule for the whole month even though the schedule is done a month prior. Only the following / next schedule is shown. Reinstalled app multiple times!",
+      "primary_stage": "General Dissatisfaction",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "600c1e40-2523-42c7-990f-3873fec00df8",
+      "score": 2,
+      "thumbsUpCount": 5,
+      "reviewCreatedVersion": null,
+      "date": "2023-08-07",
+      "content": "Its GUI is not at all feasible, due to which I didn't have any idea that I haven't scheduled my logout time cabs, and it may happen multiple times. I will be going to raise this concern to the appropriate team at my work and will again be going to provide what can be the more things that should be improved. Today, I got my schedule canceled just because the notification came, and in my sleepy time, I tried opening the app, but by mistake, I clicked on cancel. Now, no guarantee of having a cab",
+      "primary_stage": "Self-Booking & Cutoff Policy",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "ac0225b4-992e-4b9a-bfd6-3da50f0703fd",
+      "score": 2,
+      "thumbsUpCount": 5,
+      "reviewCreatedVersion": "12.8.2",
+      "date": "2025-12-23",
+      "content": "Most frustrating aspect of this app is, when cab is waiting for you and you are in hurry, you will be logged out with no access to cab number/otp/call option to helpdesk etc. We do get regular SMS but what if we have to contact driver/help desk?? This is possible once when we can access the app!!! App team should be mindful about the frequency of logouts. I use multiple workplace apps like smartq, pluxee etc but non have this issue of suprise logouts that too when you are in hurry!!",
+      "primary_stage": "Boarding, Safety & Rating Gate",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "7897d625-4363-497e-823c-2089ee213fca",
+      "score": 1,
+      "thumbsUpCount": 5,
+      "reviewCreatedVersion": "12.1",
+      "date": "2025-06-09",
+      "content": "I don't know how this app even has 4 stars when it's a VERY BADLY MADE APP. It logs you off randomly and doesn't send you the OTP. You don't know how to cancel the app. You won't know how to book properly. Everything you need to find out yourself how to do. No cancel option. Update: says you've successfully booked but your booked trips is empty. Tried multiple times and same issue.",
+      "primary_stage": "Self-Booking & Cutoff Policy",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "4998783a-c4cd-4d29-8371-08d5861ebc5d",
+      "score": 2,
+      "thumbsUpCount": 5,
+      "reviewCreatedVersion": "11.3.8",
+      "date": "2023-08-18",
+      "content": "I can only give this app a 2-star rating, and that's solely because it helps me get to the office. Unfortunately, beyond that basic function, I haven't found anything else useful about it. The tracking system, in particular, is quite frustrating and unreliable. Overall, it serves its purpose of getting me to work, but it definitely has room for improvement.",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "16160f4b-0034-465e-9b28-e21d5e48fcff",
+      "score": 1,
+      "thumbsUpCount": 4,
+      "reviewCreatedVersion": "12.1",
+      "date": "2025-06-10",
+      "content": "While doing the booking tried to open app, it crashes .. technical error, loading time is high, dam slow, not working as expected, need to really work on these problems It's really need to be optimised...hell slow..shows disabled screen for parking selection..when pick booking window is opened... 1. not able to support large load or TPS 2. Not a user friendly app 3. too many clicks and all time internal server error 4. Loading profile also fails whenever the pick time is there..",
+      "primary_stage": "Self-Booking & Cutoff Policy",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "1c47e401-cc17-4a21-bd3b-6afb62cbdd29",
+      "score": 2,
+      "thumbsUpCount": 4,
+      "reviewCreatedVersion": "12.1",
+      "date": "2025-05-30",
+      "content": "I'd have given 4 or more rating if the app had the feature to rate or provide feedback for past trips. You can't rate previous trips, it only allows you to give feedback right after the trip is ended which is irritating. You might tend to forget to provide feedback right away. Hence, it should have an option to rate trips at least for 24 hours from the trip ended.",
+      "primary_stage": "General Dissatisfaction",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "d642e79f-81cf-4aa2-8ea1-973a75a3a17d",
+      "score": 2,
+      "thumbsUpCount": 4,
+      "reviewCreatedVersion": "11.5.20",
+      "date": "2025-05-26",
+      "content": "As an employee, I appreciate the flexibility and convenience this app offers. The ability to add personalized pickup instructions would be great cause in my community they would not let a cab wait for 15 mins. I can specify exactly how I want my pickup to go down whether it's requesting the driver to arrive a certain number of minutes before my scheduled pickup time, calling me when they're a specific distance away, or even asking them to wait outside the street instead of coming inside.",
+      "primary_stage": "Driver Conduct & Fleet Quality",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "6663f7b1-7087-45e5-9320-c8a7fbfc6307",
+      "score": 1,
+      "thumbsUpCount": 4,
+      "reviewCreatedVersion": "12.14.1",
+      "date": "2026-07-07",
+      "content": "The recent updates in the UI have made the app very difficult to use. Booking a shuttle is now a 2 step process previously it used to be 1. I got confused and thought I had booked a cab while I hadn't. Was too late in realising that. Such major changes need to be released in a better way rather than just throwing them in the user's face. Another bad thing is even though I am in 1 cab but I can see all the ones available for that time. I don't need to see others, just show me mine.",
+      "primary_stage": "Self-Booking & Cutoff Policy",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "569104a6-77a2-4f2b-b8b9-68a02a8c7d96",
+      "score": 2,
+      "thumbsUpCount": 4,
+      "reviewCreatedVersion": "12.1.2",
+      "date": "2025-07-08",
+      "content": "Not sure if it's a location specific issue but I often don't get cabs even though I book in advance. Conversely, I once had a cab assigned 15 mins before the pickup time. Usually, it should be assigned an hour in advance. I had changed my plans because I assumed I didn't get a cab assigned, only to realise too late that a cab was assigned.",
+      "primary_stage": "Self-Booking & Cutoff Policy",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "c43e13cd-0b94-40a0-b3a2-d4c59b14f049",
+      "score": 1,
+      "thumbsUpCount": 3,
+      "reviewCreatedVersion": "12.11.2",
+      "date": "2026-04-28",
+      "content": "Worst experience with this app, there is no perfect timing scheduled it changes very badly and when we try to contact the driver no response the auto reply comes (looks like the driver is not responding) and there should be a chat box for me and the driver to connect at least through msg. Please Moveinsync and update these things. Humble request.",
+      "primary_stage": "Driver Conduct & Fleet Quality",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "d9908c86-429a-440d-a851-049b46d66093",
+      "score": 2,
+      "thumbsUpCount": 3,
+      "reviewCreatedVersion": "9.6.5",
+      "date": "2021-11-30",
+      "content": "Works only once after installing. Next use gets stuck on blank screen. Have to uninstall and reinstall to make it work. And again it will work just once!",
+      "primary_stage": "App Stability & System Performance",
+      "specific_issues": "Post-Update Crash / Reinstall Loop"
+    },
+    {
+      "reviewId": "ddf6157c-0dc9-443d-b9fd-3cbf4ebf19cf",
+      "score": 1,
+      "thumbsUpCount": 3,
+      "reviewCreatedVersion": "12.11.2",
+      "date": "2026-04-23",
+      "content": "Loading and showing full screen banner on every app launch is terrible. I am opening the app to see my cab timing, tracking etc. not to see repeatedly that it's earth month or something. You are wasting my time in loading and preventing me from seeing content that I use that app for.",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "7db51491-0223-4f56-9018-31fdf646999e",
+      "score": 1,
+      "thumbsUpCount": 3,
+      "reviewCreatedVersion": "12.1.2",
+      "date": "2025-06-19",
+      "content": "worst app, tracking glitches, the issue is ,let's x,y &z are traveling back to home from office and they need to dropped in order (x drop is first, after that y than z), but if in between y drops by his choice then it gives the next location for z not x who is not yet dropped, so either you fix this or not allow passenger's to drop in between, they should be allowed to leave only when their stop comes.",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "c4682050-e84d-4490-a694-acd4b981b407",
+      "score": 1,
+      "thumbsUpCount": 3,
+      "reviewCreatedVersion": "12.8.3",
+      "date": "2026-01-12",
+      "content": "there needs to be an offline mode in case of disconnections to the internet. I'm missing my cab because ETA initially shown was 12 pm, but the driver called at 11:45. once I went to the gate at 11:50 I lost signal and along with it driver details and OTP info. I have no idea what to do in situations like this, as I may not have signal in the pickup area most of the time. to compound the problem ETA changed by 10-15 minutes.",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "8076fa85-5397-4e1b-a10f-6c005053e010",
+      "score": 1,
+      "thumbsUpCount": 3,
+      "reviewCreatedVersion": "12.2.1",
+      "date": "2025-07-21",
+      "content": "The map never updates the cab location on time, If you're working late in the night and your location is outside main city then you can be left stranded after your work because map is not updated in time and you must be waiting for a cab that has already left without you and above that, you don't even have the option to contact drivers directly. Worst nightmare for commute for working professionals",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "6c2c9546-09f9-460d-a61a-0fbe76078cd9",
+      "score": 1,
+      "thumbsUpCount": 3,
+      "reviewCreatedVersion": "12.14.1",
+      "date": "2026-07-01",
+      "content": "The GPS tracking system is very slow, and the pickup and drop timings are frequently incorrect. Additionally, the live location of other users is often not visible. Due to these issues, we are unable to determine the correct vehicle location, which is causing inconvenience. Kindly investigate and resolve these issues as soon as possible.",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "802731d4-d876-4869-ab2c-42d1e23dd2b9",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.8.3",
+      "date": "2026-01-06",
+      "content": "so much ridiculous app. After 3 no show cab facility nahi milti... shiiii Ganda app",
+      "primary_stage": "General Dissatisfaction",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "93b37154-1671-43bc-9522-97056844ccd0",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.5",
+      "date": "2025-10-05",
+      "content": "I had a very bad experience today. The timing for my schedule was changed without any prior information. As a result, I was marked as a \u201cno show\u201d even though I had reached the location and my cab had arrived. The timing has been the same for the last 30 days, but today they suddenly said it was changed. When I contacted the admin and helpdesk teams, they were unhelpful and spoke rudely. Additionally, the cab service often arrives very late, causing further inconvenience. ---",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "03ee1a10-3536-4dcf-bb47-c59d0a03894a",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.1.2",
+      "date": "2025-06-19",
+      "content": "After the recent update in June 2025, the app is logging out frequently and asking for fresh login every time one opens the app. It is pretty cumbersome when one is trying to see the cab details.",
+      "primary_stage": "Onboarding & Roster Sync",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "f1efcfec-bc78-443f-ae48-0084c6eb3946",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.7.2",
+      "date": "2025-12-09",
+      "content": "Pathetic app. My office is using their service and driver doesn't come on time for pickup. Most of the time driver doesn't pick the call. Their customer care is also not easy to connect.",
+      "primary_stage": "Driver Conduct & Fleet Quality",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "bd8f142e-9a24-4334-af2b-b5afd3e20974",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.2.1",
+      "date": "2025-07-25",
+      "content": "It would help if you ask the drivers to give us a call prior to your pickup so that way you do not fall over your feet when they just appear and honk infront of your house. the app communication is not accurate so that could do with some work as well.",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "7dcf991f-1498-4dc6-a925-3b10634e2ccc",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.1.2",
+      "date": "2025-06-19",
+      "content": "app is automatically signing out...pls fix this",
+      "primary_stage": "General Dissatisfaction",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "941d8a90-37b9-4f3c-93dc-84a6667ddddc",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.7.2",
+      "date": "2025-12-03",
+      "content": "Many issues with this app. some booking not reflected and not reflecting correctly on the driver's end. Thus making me look like a liar. RESULT? I HAVE 2 DRIVER'S AS AN ENEMY COMPLAINING TO ME. I AM SHOWING THE PROOF I HAVE MADE CORRECT BOOKINGS AND THEY DID NOT EVEN BOTHERED TO LOOK AT IT. AND THEY HAVE DISMISSED IT AND ALSO THE DRIVER'S HAVE ANGER ISSUES. JUST BY SEEING ME. SHOWING AGGRESSIVE ATTITUDE. LIKE WHAT? I DO NOT EVEN KNOW YOU AND YOUR NAME. App is not helpful \u2713",
+      "primary_stage": "Self-Booking & Cutoff Policy",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "2383e87a-d144-4037-ab9d-51dc12ae0c65",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.7",
+      "date": "2025-11-28",
+      "content": "Very inaccurate app, estimated time of pickup is always wrong. it will waste your time. Does not update vehicle locations a lot of times. I've been using this app for 4-5 months now even after multiple complaints to the team to get it fixed there is no response or fix in the app. The edit pickup location doesn't work so once you fill in your details it's fixed. you'll have to email your handler every time. As I have no other option of commuting apart from the off shuttle i have to keep this app.",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "4ff789f8-aeeb-4f50-b22c-ebbc5fa3c68d",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.11.2",
+      "date": "2026-04-16",
+      "content": "The app is by far the worst.. when navigation etc is concerned. the number of selections, drop downs etc that need to be selected.. even before you reach the main page...",
+      "primary_stage": "General Dissatisfaction",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "69f76e3e-f0d4-4cb4-9a39-57b398583528",
+      "score": 2,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "11.4.37",
+      "date": "2024-07-13",
+      "content": "Crashes often",
+      "primary_stage": "General Dissatisfaction",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "56a649bb-5722-41d6-a0d1-a16edd375d93",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.5",
+      "date": "2025-09-24",
+      "content": "Ridiculously poor app wrt to driver location updates. often doesnt update until the vehicle is at your door step thereby delaying the pick process for all. mediocre UI with limited functionalities. plus now with the latest update it doesn't work unless one resets the time on the mobile as per network location!",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "a0134b5e-b276-4294-8bc7-1281eade9d46",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.3",
+      "date": "2025-08-12",
+      "content": "office Cab driver always saying they are not able to contact me via app. when they call me it says my number busy. I am receiving any missed call and I didn't block any number. My app is always up to date still facing the same issue allready reached to my company transport. still the same issue. it's difficult to coordinate with driver during pickup and drop off.",
+      "primary_stage": "Driver Conduct & Fleet Quality",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "1899221d-fc08-46db-a939-fbcfad328376",
+      "score": 2,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "11.5.8",
+      "date": "2024-10-16",
+      "content": "App is having good interface and had lots of improvements in past months. But a sad part is there is no option to communicate with driver from employee side. We need either call or chat option for the assigned cab. So that we can guide him address. If drivern taken wrong route we can check him using the track and call option This connection option will really help drivers and employees who are going to on board the cab. Please check on this",
+      "primary_stage": "Routing Algorithm & Detours",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "3052614a-d0f3-425c-866c-a676216dd932",
+      "score": 2,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.9.2",
+      "date": "2026-02-04",
+      "content": "it was good till 2 days back but now we are not able to see the people who are aligned to our pickup or drop. the app is not showing pickup timing as well now. only via msg we are getting the information which is most of the time is wrong",
+      "primary_stage": "General Dissatisfaction",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "e43167eb-e2be-4396-960d-accb486f972c",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.11.2",
+      "date": "2026-04-24",
+      "content": "please remove your annoying popups. its very very difficult to close them and they keep on coming back. I am not able to schedule my ride. what kind of fully useless developer build such a pathetic app.. shame on them. don't you know what is your core user journey. why it has to be behind annoying popups.",
+      "primary_stage": "General Dissatisfaction",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "4cffdcf2-c19c-4563-b399-0812472c79fd",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.11.2",
+      "date": "2026-04-15",
+      "content": "Worst user interface. App doesn't even load once you login using your official id. It just says \"Something went wrong\". Tried uninstalling and installing a couple of times but getting the same error message.",
+      "primary_stage": "Onboarding & Roster Sync",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "da4ad9ad-acbe-4600-8d32-46883fab9fdd",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.18.0",
+      "date": "2026-08-31",
+      "content": "There should be an option to directly search for seat number instead of using the map. There should be an option to set default floor in app and portal. Multiple times for multiple people, the seat number (booking shows but without desk allocation) gets removed for bookings which is a major bug",
+      "primary_stage": "Self-Booking & Cutoff Policy",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "dbd8cb25-b34c-47cb-915c-141f0b703eaf",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.1.2",
+      "date": "2025-06-19",
+      "content": "pathetic to used since we need to login again again",
+      "primary_stage": "Onboarding & Roster Sync",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "2adcefec-7e22-460f-977c-c8f4f7b47012",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.5",
+      "date": "2025-09-23",
+      "content": "Even after giving the app approximate location permission, it still keeps asking for location permission and does not allow calls Now with the new update I am forced to enable auto-timezone?!? Why, just why is a user forced to enable it just for a simple app to work??",
+      "primary_stage": "Live Tracking & Real-Time ETA",
+      "specific_issues": ""
+    },
+    {
+      "reviewId": "af089491-6921-4aa4-8ebc-867e1807b902",
+      "score": 1,
+      "thumbsUpCount": 2,
+      "reviewCreatedVersion": "12.1.2",
+      "date": "2025-06-22",
+      "content": "The app is getting logged out continuously since last week",
+      "primary_stage": "App Stability & System Performance",
+      "specific_issues": ""
+    }
+  ]
+}

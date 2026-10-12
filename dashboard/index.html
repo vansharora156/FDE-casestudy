@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoveInSync | Play Store Turnaround Strategy</title>
+  <meta name="description" content="Forward Deployed Engineering assessment and turnaround strategy for MoveInSync Google Play Store ratings.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    
+    <!-- Header Section -->
+    <header class="dashboard-header" id="mainHeader">
+      <div class="brand-section">
+        <div class="brand-logo" id="brandLogo">M</div>
+        <div class="brand-text">
+          <h1 id="pageTitle">MoveInSync | Play Store Turnaround Platform</h1>
+          <p id="pageSubtitle">Forward Deployed Engineering (FDE) Analysis & Action Platform &bull; Empirical Dataset of 3,368+ Reviews</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div class="badge badge-live" id="liveBadge">
+          <span class="badge-pulse"></span>
+          <span>Live Pipeline Active</span>
+        </div>
+        <button class="btn btn-secondary" id="btnExecutiveSummary">
+          Executive Brief
+        </button>
+        <button class="btn btn-primary" id="btnRunRefresh">
+          Ask: "How Are Ratings Today?"
+        </button>
+      </div>
+    </header>
+
+    <!-- Executive KPI Grid -->
+    <section class="kpi-grid" id="kpiGrid">
+      <div class="kpi-card" id="kpiLifetime">
+        <div class="kpi-label">Lifetime Play Store Rating</div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="valLifetimeScore">4.64★</span>
+          <span class="kpi-badge up">114.8k Total Ratings</span>
+        </div>
+        <div class="kpi-subtitle">Lifetime aggregate masks recent collapse</div>
+      </div>
+
+      <div class="kpi-card crisis" id="kpiRunRate">
+        <div class="kpi-label">2026 Run-Rate Score (Crisis)</div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="valRecentScore" style="color: #fb7185;">3.75★</span>
+          <span class="kpi-badge down">-0.89 Drop</span>
+        </div>
+        <div class="kpi-subtitle">Incoming average score across 2026 releases</div>
+      </div>
+
+      <div class="kpi-card crisis" id="kpiOneStar">
+        <div class="kpi-label">Incoming 1-Star Ratio</div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="valOneStarPct" style="color: #f43f5e;">25.8%</span>
+          <span class="kpi-badge down">1 in 4 Reviews</span>
+        </div>
+        <div class="kpi-subtitle">Triggering Google Play regional downgrades</div>
+      </div>
+
+      <div class="kpi-card" id="kpiDevReply">
+        <div class="kpi-label">Dev Reply Rate (Negatives)</div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="valDevReplyPct">18.4%</span>
+          <span class="kpi-badge down">81.6% Ignored</span>
+        </div>
+        <div class="kpi-subtitle">Missed chance to turn 1★ into 5★</div>
+      </div>
+
+      <div class="kpi-card" id="kpiCommuteFriction">
+        <div class="kpi-label">Top Commute Stage Blocker</div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" style="font-size: 20px; color: #38bdf8;">Live Tracking & ETA</span>
+        </div>
+        <div class="kpi-subtitle">Map zoom reset & inaccurate ETA algorithms</div>
+      </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs-nav" id="tabNavigation">
+      <button class="tab-btn active" data-tab="tab-overview" id="tabBtnOverview">Overview & Data Audit</button>
+      <button class="tab-btn" data-tab="tab-journey" id="tabBtnJourney">8-Stage Journey Friction</button>
+      <button class="tab-btn" data-tab="tab-roadmap" id="tabBtnRoadmap">Engineering Roadmap (P0/P1/P2)</button>
+      <button class="tab-btn" data-tab="tab-explorer" id="tabBtnExplorer">Live Review Explorer</button>
+      <button class="tab-btn" data-tab="tab-simulator" id="tabBtnSimulator">Turnaround Simulator</button>
+      <button class="tab-btn" data-tab="tab-monitor" id="tabBtnMonitor">Continuous Pipeline</button>
+    </nav>
+
+    <!-- TAB 1: OVERVIEW & DATA AUDIT -->
+    <div class="tab-content active" id="tab-overview">
+      <div class="grid-2col">
+        <!-- Monthly Rating Trajectory -->
+        <div class="content-card" id="cardMonthlyTrend">
+          <div class="card-header">
+            <h2 class="card-title">Monthly Rating Trajectory (2025 - 2026)</h2>
+            <span class="badge" style="background: rgba(99,102,241,0.15); color: #a5b4fc;">Plunge Revealed</span>
+          </div>
+          <p class="card-desc">Monthly average ratings showing sharp decline in early 2026 and sustained volatility between 3.56★ and 3.84★.</p>
+          <div id="monthlyChartContainer" style="display: flex; flex-direction: column; gap: 10px; margin-top: 14px;"></div>
+        </div>
+
+        <!-- App Version Health Matrix -->
+        <div class="content-card" id="cardVersionMatrix">
+          <div class="card-header">
+            <h2 class="card-title">App Version Health Matrix</h2>
+            <span class="badge" style="background: rgba(6,182,212,0.15); color: #67e8f9;">Release Audit</span>
+          </div>
+          <p class="card-desc">Recent app versions (v12.11 through v12.19) suffer up to 31.4% 1-star ratings due to release regressions.</p>
+          <div id="versionTableContainer" style="overflow-x: auto; margin-top: 8px;"></div>
+        </div>
+      </div>
+
+      <!-- Root Cause Category Breakdown -->
+      <div class="grid-2col">
+        <div class="content-card" id="cardFrictionCategories">
+          <div class="card-header">
+            <h2 class="card-title">Friction Domain Breakdown (1★ & 2★ Reviews)</h2>
+          </div>
+          <p class="card-desc">Distribution of root-cause domains across analyzed negative reviews.</p>
+          <div id="categoryBreakdownContainer" style="display: flex; flex-direction: column; gap: 12px;"></div>
+        </div>
+
+        <div class="content-card" id="cardCompetitiveBench">
+          <div class="card-header">
+            <h2 class="card-title">Competitive Enterprise Benchmark</h2>
+            <span class="badge" style="background: rgba(16,185,129,0.15); color: #34d399;">Industry Comparison</span>
+          </div>
+          <p class="card-desc">MoveInSync leads heavily on scale (114k+ ratings) but is losing ground on recent customer sentiment.</p>
+          <div class="benchmark-list" style="display: flex; flex-direction: column; gap: 12px; margin-top: 10px;">
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: 8px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <strong style="color: #fff; font-size: 14px;">MoveInSync (Primary)</strong>
+                <div style="font-size: 12px; color: var(--text-muted);">114,880 Total Ratings &bull; 6.4% Lifetime 1★ &bull; 25.8% Recent 1★</div>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-size: 18px; font-weight: 800; color: #fb7185;">3.75★ <span style="font-size: 12px; color: var(--text-muted);">(Recent)</span></div>
+                <div style="font-size: 11px; color: #94a3b8;">4.64★ Lifetime</div>
+              </div>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: 8px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <strong style="color: #fff; font-size: 14px;">Safetrax Commuter</strong>
+                <div style="font-size: 12px; color: var(--text-muted);">24,144 Total Ratings &bull; 3.8% 1★ &bull; 86.0% 5★</div>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-size: 18px; font-weight: 800; color: #34d399;">4.72★</div>
+                <div style="font-size: 11px; color: #10b981;">Consistent Positive Flow</div>
+              </div>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: 8px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <strong style="color: #fff; font-size: 14px;">Routematic</strong>
+                <div style="font-size: 12px; color: var(--text-muted);">8,016 Total Ratings &bull; 8.1% 1★ &bull; 83.4% 5★</div>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-size: 18px; font-weight: 800; color: #38bdf8;">4.52★</div>
+                <div style="font-size: 11px; color: #94a3b8;">Solid B2B Baseline</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: 8-STAGE JOURNEY FRICTION -->
+    <div class="tab-content" id="tab-journey">
+      <div class="content-card" style="margin-bottom: 24px;">
+        <div class="card-header">
+          <h2 class="card-title">The Employee Commute Journey: 8 Friction Stages</h2>
+          <span class="badge" style="background: rgba(99,102,241,0.15); color: #a5b4fc;">Funnel Diagnostic</span>
+        </div>
+        <p class="card-desc">Every negative rating corresponds directly to a failure point in the employee's daily journey from home to office and back. Click any stage to inspect real employee quotes and engineering root causes.</p>
+        
+        <div class="journey-funnel" id="journeyFunnelList"></div>
+      </div>
+
+      <div class="content-card" id="journeyDetailCard" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title" id="journeyDetailTitle">Stage Diagnostics</h3>
+          <button class="btn btn-secondary" style="padding: 4px 10px; font-size: 12px;" onclick="document.getElementById('journeyDetailCard').style.display='none'">Close</button>
+        </div>
+        <div id="journeyDetailContent"></div>
+      </div>
+    </div>
+
+    <!-- TAB 3: ENGINEERING ROADMAP -->
+    <div class="tab-content" id="tab-roadmap">
+      <div class="content-card" style="margin-bottom: 20px;">
+        <div class="card-header">
+          <h2 class="card-title">Prioritized Engineering & Product Roadmap (P0 &rarr; P1 &rarr; P2)</h2>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn btn-secondary active" id="btnFilterAllSprints" onclick="filterRoadmap('all')">All Sprints</button>
+            <button class="btn btn-secondary" id="btnFilterP0" onclick="filterRoadmap('P0')">Sprint 1 (P0: Days 1-14)</button>
+            <button class="btn btn-secondary" id="btnFilterP1" onclick="filterRoadmap('P1')">Sprint 2 (P1: Days 15-30)</button>
+            <button class="btn btn-secondary" id="btnFilterP2" onclick="filterRoadmap('P2')">Sprint 3 (P2: Days 31-60)</button>
+          </div>
+        </div>
+        <p class="card-desc">Specific, production-grade recommendations with technical specifications, architecture patterns, and acceptance criteria ready for immediate engineering execution.</p>
+        
+        <div class="roadmap-container" id="roadmapList"></div>
+      </div>
+    </div>
+
+    <!-- TAB 4: LIVE REVIEW EXPLORER -->
+    <div class="tab-content" id="tab-explorer">
+      <div class="content-card">
+        <div class="card-header">
+          <h2 class="card-title">Real Review Explorer & Sentiment Inspector</h2>
+          <span class="badge" id="reviewCountBadge" style="background: rgba(56,189,248,0.15); color: #38bdf8;">Showing 250 Reviews</span>
+        </div>
+        
+        <div class="explorer-controls">
+          <input type="text" id="reviewSearchInput" class="search-input" placeholder="Search keywords (e.g., 'crash', 'otp', 'rating', 'pilgrimage', 'logout')...">
+          
+          <select id="filterScore" class="filter-select">
+            <option value="all">All Stars</option>
+            <option value="1">1 Star Only (Critical)</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars (Delight)</option>
+          </select>
+
+          <select id="filterStage" class="filter-select">
+            <option value="all">All Commute Stages</option>
+            <option value="Live Tracking & Real-Time ETA">Live Tracking & ETA</option>
+            <option value="Boarding, Safety & Rating Gate">Boarding & Rating Gate</option>
+            <option value="App Stability & System Performance">App Stability & Performance</option>
+            <option value="Self-Booking & Cutoff Policy">Self-Booking & Cutoff</option>
+            <option value="Routing Algorithm & Detours">Routing & Detours</option>
+            <option value="Onboarding & Roster Sync">Onboarding & Roster</option>
+            <option value="Driver Conduct & Fleet Quality">Driver Conduct</option>
+            <option value="Support, Helpdesk & Escalation">Support & Helpdesk</option>
+          </select>
+
+          <select id="sortReviews" class="filter-select">
+            <option value="upvotes">Sort by Upvotes (Community Agreement)</option>
+            <option value="newest">Sort by Newest Date</option>
+          </select>
+        </div>
+
+        <div class="reviews-list" id="reviewsListContainer"></div>
+      </div>
+    </div>
+
+    <!-- TAB 5: TURNAROUND SIMULATOR -->
+    <div class="tab-content" id="tab-simulator">
+      <div class="content-card">
+        <div class="card-header">
+          <h2 class="card-title">Play Store Rating Turnaround Simulator</h2>
+          <span class="badge" style="background: rgba(168,85,247,0.15); color: #c084fc;">Mathematical Recovery Model</span>
+        </div>
+        <p class="card-desc">Simulate the Google Play rating recovery trajectory based on fixing P0 blockers and deploying smart in-app review interception.</p>
+
+        <div class="sim-controls">
+          <div class="sim-slider-group">
+            <div class="sim-slider-label">
+              <span>Monthly Organic Review Volume:</span>
+              <strong id="simVolumeVal">250</strong>
+            </div>
+            <input type="range" min="100" max="800" step="25" value="250" class="sim-slider" id="simVolumeSlider">
+          </div>
+
+          <div class="sim-slider-group">
+            <div class="sim-slider-label">
+              <span>P0 Crash & Modal Fix Impact (1★ Reduction):</span>
+              <strong id="simP0FixVal">65%</strong>
+            </div>
+            <input type="range" min="20" max="90" step="5" value="65" class="sim-slider" id="simP0FixSlider">
+          </div>
+
+          <div class="sim-slider-group">
+            <div class="sim-slider-label">
+              <span>In-App Review API Prompt Uplift (New 5★/mo):</span>
+              <strong id="simPromptUpliftVal">300</strong>
+            </div>
+            <input type="range" min="50" max="800" step="50" value="300" class="sim-slider" id="simPromptUpliftSlider">
+          </div>
+        </div>
+
+        <div class="sim-metrics-grid">
+          <div class="sim-metric-card">
+            <div class="sim-metric-val" id="simScore30">4.12★</div>
+            <div class="sim-metric-title">Projected Score (Day 30)</div>
+          </div>
+          <div class="sim-metric-card">
+            <div class="sim-metric-val" id="simScore60">4.38★</div>
+            <div class="sim-metric-title">Projected Score (Day 60)</div>
+          </div>
+          <div class="sim-metric-card">
+            <div class="sim-metric-val" id="simScore90" style="color: #10b981;">4.56★</div>
+            <div class="sim-metric-title">Projected Score (Day 90 Target)</div>
+          </div>
+          <div class="sim-metric-card">
+            <div class="sim-metric-val" id="simNetOneStar" style="color: #fb7185;">-72%</div>
+            <div class="sim-metric-title">1-Star Review Reduction</div>
+          </div>
+        </div>
+
+        <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 20px;">
+          <h3 style="font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 8px;">Why This Recovery Math Works:</h3>
+          <ul style="font-size: 13px; color: #cbd5e1; padding-left: 20px; line-height: 1.8;">
+            <li><strong>Google Play Weighted Scoring Algorithm:</strong> Play Store weighs ratings from the last 30-90 days much higher than historical lifetime ratings. Stopping the bleeding on 1-star reviews immediately lifts the active algorithm score.</li>
+            <li><strong>Neutralizing the Hostage Rating Gate:</strong> Removing the mandatory post-ride modal stops over ~40 retaliatory 1-star reviews each week.</li>
+            <li><strong>Activating the Silent Satisfied Majority:</strong> Over 1.5 million rides happen daily with a ~95%+ on-time success rate, but satisfied employees never think to open the Play Store. Triggering the native Google Play In-App Review dialog after 3 consecutive 5-star rides produces 300-500 organic 5-star reviews per month with zero user friction.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 6: CONTINUOUS MONITORING PIPELINE -->
+    <div class="tab-content" id="tab-monitor">
+      <div class="content-card">
+        <div class="card-header">
+          <h2 class="card-title">Answering: "How Are Our Play Store Ratings?" (Continuous Pipeline)</h2>
+          <span class="badge" style="background: rgba(6,182,212,0.15); color: #67e8f9;">FDE Production Tooling</span>
+        </div>
+        <p class="card-desc">The assignment notes: <em>“'How are our Play Store ratings?' - this is a question we'll keep asking from time to time. It is not a one-time ask."</em> This continuous monitoring system automates scraping, regression detection, and alerting.</p>
+
+        <div class="action-grid" style="margin-top: 14px;">
+          <div class="action-box">
+            <div class="action-box-title">1. Automated Scraper & Regression Monitor</div>
+            <div class="action-box-content">
+              Runs as a nightly or weekly scheduled cron job. Scrapes recent reviews, computes rolling 7-day and 30-day sentiment, and checks for keyword anomalies.
+              <div class="code-snippet"># Run on-demand from CLI anytime:
+python scripts/playstore_pipeline.py --refresh</div>
+            </div>
+          </div>
+
+          <div class="action-box">
+            <div class="action-box-title">2. Real-Time Slack / Teams Alerting Triggers</div>
+            <div class="action-box-content">
+              Instant alerts sent to <code>#eng-mobile-alerts</code> and <code>#ops-transport-pulse</code> whenever:
+              <ul style="padding-left: 16px; margin-top: 4px; font-size: 11.5px; color: #94a3b8;">
+                <li>1-Star reviews exceed 5 within any 2-hour window</li>
+                <li>Keywords like <code>crash</code>, <code>otp</code>, <code>uninstall</code> spike &gt;200% above baseline</li>
+                <li>Average score for a new release drops below 4.0</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="action-box">
+            <div class="action-box-title">3. Play Store Developer Response SLA</div>
+            <div class="action-box-content">
+              Currently, <strong>81.6% of negative reviews are left unanswered</strong>. Deploying an automated webhook to create Zendesk/Jira tickets for all 1★ and 2★ reviews ensures guaranteed 12-hour response and resolution callbacks.
+            </div>
+          </div>
+
+          <div class="action-box">
+            <div class="action-box-title">4. Enterprise CSAT & B2B Client Transparency</div>
+            <div class="action-box-content">
+              Generates monthly executive PDF scorecards for enterprise client transport desks (TCS, Google, Amazon, Microsoft, Infosys) showing issue resolution speed, driver quality metrics, and commute NPS.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Executive Brief Modal -->
+  <div class="modal-overlay" id="briefModal">
+    <div class="modal-card">
+      <button class="modal-close" id="btnCloseModal">&times;</button>
+      <h2 style="font-size: 20px; font-weight: 800; color: #fff; margin-bottom: 6px;">Executive Brief: MoveInSync Rating Turnaround Strategy</h2>
+      <div style="font-size: 12px; color: #a5b4fc; margin-bottom: 18px;">Prepared by Forward Deployed Engineer &bull; October 2026</div>
+      
+      <div style="font-size: 13.5px; color: #cbd5e1; line-height: 1.7; display: flex; flex-direction: column; gap: 14px;">
+        <div style="background: rgba(244,63,94,0.1); border-left: 3px solid #f43f5e; padding: 12px 14px; border-radius: 4px;">
+          <strong style="color: #fb7185;">Core Problem:</strong> While MoveInSync's lifetime score reads 4.64★ (buoyed by 114k historical ratings), <strong>the 2026 run-rate score has plummeted to 3.75★</strong>, with 25.8% of incoming reviews being 1-star. Google Play's regional weighted algorithm is actively lowering public store visibility.
+        </div>
+
+        <div>
+          <strong style="color: #fff;">Top Root Causes Discovered:</strong>
+          <ol style="padding-left: 20px; margin-top: 6px;">
+            <li><strong>The "Rating Modal Hostage" Anti-Pattern:</strong> The app forces a post-ride rating popup with no skip option. Riders head straight to Google Play to leave retaliatory 1-star reviews.</li>
+            <li><strong>Post-Update Crash Loop:</strong> App updates leave Android clients in a crash/blank screen loop due to corrupted SQLite migrations, forcing users to uninstall/reinstall.</li>
+            <li><strong>OTP Blocked by Safety Popup:</strong> Standing at the curb, tapping "View OTP" launches an unskippable "Seatbelt Safety" modal while the driver honks and waits.</li>
+            <li><strong>Live Tracking & ETA Failures:</strong> Map auto-resets zoom every 30 seconds to the full route, preventing riders from tracking approaching vehicles; ETA is 3x lower than Google Maps reality.</li>
+            <li><strong>Support Black Hole:</strong> In-app tickets are closed with generic canned responses, forcing users to use Google Play as their only public escalation channel.</li>
+          </ol>
+        </div>
+
+        <div>
+          <strong style="color: #fff;">Engineering Action Plan:</strong>
+          <ul style="padding-left: 20px; margin-top: 6px;">
+            <li><strong>Sprint 1 (Days 1-14):</strong> Add "Skip" button on rating modal; implement Google Play In-App Review API; patch SQLite migration fallback; remove seatbelt modal intercepting OTP; persist auth tokens in Android Keystore.</li>
+            <li><strong>Sprint 2 (Days 15-30):</strong> Fix map camera auto-zoom; extend live vehicle tracking to 120 mins; integrate traffic matrices into ETA; add monthly roster booking grid; auto-reconcile phantom "trip not booked" pushes.</li>
+            <li><strong>Sprint 3 (Days 31-60):</strong> Cap vehicle detour ratio at max 1.35x direct transit time; launch 12-hour developer response SLA workflow for Play Store reviews.</li>
+          </ul>
+        </div>
+
+        <div style="background: rgba(16,185,129,0.1); border-left: 3px solid #10b981; padding: 12px 14px; border-radius: 4px;">
+          <strong style="color: #34d399;">Target Outcome:</strong> Lift incoming rating from <strong>3.75★ to 4.56★ within 90 days</strong>, eliminate &gt;70% of 1-star reviews, and restore employee trust.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data and Application Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
